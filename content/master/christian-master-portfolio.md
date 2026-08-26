@@ -182,13 +182,12 @@ Demonstra a evolução do conhecimento de **Implantação/Operações** para **A
 ## 5. Inventário de Projetos (Project Inventory)
 
 ### A. ROOMIX
-- **Status:** ✅ PROJETO REAL | **Potencial:** 🏆 FLAGSHIP CASE
-- **Classificação:** SaaS / Hospitality Technology / Property Operations / Product Strategy
+- **Status:** ✅ PROJETO REAL (Em Desenvolvimento / Homologação) | **Potencial:** 🏆 FLAGSHIP CASE
+- **Classificação:** SaaS / Hospitality Technology / Property Operations / Product Strategy / AI-Assisted Development
 - **Resumo:** Ecossistema de software voltado à operação hoteleira (PMS, reservas diretas, administração interna, aplicação mobile e módulos operacionais).
-- **Grau Atual de Validação:** 🟡 A VALIDAR (Ownership detalhada por dimensão no dossiê)
-- **Principais Áreas Demonstradas:** Product Strategy, Arquitetura Funcional, Requisitos & Regras de Negócio, AI-Assisted Product Development.
+- **Grau Atual de Validação:** ✅ CONFIRMADO (Liderança de Produto, Requisitos, Arquitetura Funcional, Prompt-as-Specification, QA Colaborativo e Dev Assistido por IA validados por Christian).
+- **Principais Áreas Demonstradas:** Product Leadership, Arquitetura Funcional, Requisitos & Regras de Negócio, AI-Assisted Product Development, Gestão de Projetos.
 - **Dossiê Completo de Evidências:** Consulte o arquivo oficial [roomix-evidence.md](projects/roomix-evidence.md)
-- **Perguntas Pendentes Principais:** Ver seção 15 do dossiê `roomix-evidence.md` (origem do problema, ICP, reservas diretas, envolvimento em dev assistido por IA e homologação).
 
 ---
 
