@@ -187,7 +187,7 @@ Demonstra a evolução do conhecimento de **Implantação/Operações** para **A
 - **Resumo:** Ecossistema de software voltado à operação hoteleira (PMS, reservas diretas, administração interna, aplicação mobile e módulos operacionais).
 - **Grau Atual de Validação:** 🟡 A VALIDAR (Ownership detalhada por dimensão no dossiê)
 - **Principais Áreas Demonstradas:** Product Strategy, Arquitetura Funcional, Requisitos & Regras de Negócio, AI-Assisted Product Development.
-- **Dossiê Completo de Evidências:** Consulte o arquivo oficial [roomix-evidence.md](file:///c:/Users/ADM/Documents/portifolio/portifolio/content/master/projects/roomix-evidence.md)
+- **Dossiê Completo de Evidências:** Consulte o arquivo oficial [roomix-evidence.md](projects/roomix-evidence.md)
 - **Perguntas Pendentes Principais:** Ver seção 15 do dossiê `roomix-evidence.md` (origem do problema, ICP, reservas diretas, envolvimento em dev assistido por IA e homologação).
 
 ---
