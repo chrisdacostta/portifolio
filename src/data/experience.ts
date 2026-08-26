@@ -9,26 +9,26 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    company: 'Inflowork / Projetos SaaS',
-    role: 'SaaS Implementation & Onboarding Specialist',
-    period: '2023 - Presente',
-    description: 'Condução ponta a ponta de projetos de implantação de plataformas SaaS complexas. Responsável por alinhar requisitos de negócios, gerenciar cronogramas, definir integrações operacionais de sistemas e ministrar sessões de habilitação técnica.',
-    learnings: 'Conectar com clareza o patrocinador executivo (Sponsor) e a equipe técnica operacional no primeiro workshop de discovery acelera a validação e reduz riscos de atraso no Go-live.',
+    company: 'Inflowork',
+    role: 'Implantação & Operações SaaS',
+    period: '[PERÍODO A VALIDAR]',
+    description: 'Atuação no acompanhamento e gestão de projetos de implantação de plataformas SaaS, onboarding de clientes, alinhamento de requisitos e coordenação de rituais com stakeholders.',
+    learnings: 'Conectar com clareza os patrocinadores do projeto e os usuários operacionais desde a fase inicial de descoberta acelera o alinhamento e reduz desvios.',
     projectSlug: 'implantacao-saas-internacional'
   },
   {
-    company: 'Operations & Process Design',
-    role: 'Process & Customer Operations Specialist',
-    period: '2021 - 2023',
-    description: 'Mapeamento e otimização de fluxos de trabalho operacionais, automação de tarefas e conexões de APIs entre CRMs e ferramentas de gerenciamento de projetos. Desenho de jornadas de pós-venda corporativas.',
-    learnings: 'Mapear rigorosamente os gargalos do estado atual (AS-IS) antes de desenhar qualquer automação é vital para garantir que a tecnologia traga melhoria real e não apenas replicação de erros.',
+    company: '[EMPRESA / PROJETO A VALIDAR]',
+    role: 'Mapeamento de Processos & Operações',
+    period: '[PERÍODO A VALIDAR]',
+    description: '[INFORMAÇÃO PENDENTE DE VALIDAÇÃO] Experiência focada no mapeamento de fluxos de trabalho (AS-IS / TO-BE), identificação de gargalos operacionais e organização da passagem de bastão (handoff).',
+    learnings: 'Padronizar e estruturar as regras de negócio de um processo antes de aplicar qualquer automação é fundamental para evitar a duplicação de falhas.',
     projectSlug: 'processos-operacionais-automacao'
   },
   {
-    company: 'Customer Relations',
-    role: 'Customer Success & Portfolio Manager',
-    period: '2019 - 2021',
-    description: 'Gestão de contas e carteiras corporativas de clientes nacionais e transfronteiriços. Condução de reuniões de acompanhamento estratégico, mitigação proativa de impedimentos técnicos e acompanhamento de SLAs de atendimento.',
-    learnings: 'Mitigar crises ativamente depende de antecipar riscos. Manter canais transparentes de comunicação com stakeholders de tecnologia e negócios gera credibilidade de longo prazo.'
+    company: '[EMPRESA / PROJETO A VALIDAR]',
+    role: 'Relacionamento & Atendimento a Clientes',
+    period: '[PERÍODO A VALIDAR]',
+    description: '[INFORMAÇÃO PENDENTE DE VALIDAÇÃO] Acompanhamento da jornada do cliente no pós-venda, condução de reuniões de acompanhamento de status e suporte à adoção técnica.',
+    learnings: 'Identificar atritos na jornada precocemente e manter canais transparentes de comunicação gera segurança para o cliente.'
   }
 ];

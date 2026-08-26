@@ -11,7 +11,7 @@ export interface Project {
   role: string;
   intro: string;
   content: string;
-  videoUrl?: string;
+  videoUrl?: string; // ASSET TEMPORÁRIO DE REFERÊNCIA (Prisma/MotionSites) - Substituir por mídia própria posteriormente
   imageUrl?: string;
 }
 
@@ -20,35 +20,37 @@ export const projects: Project[] = [
     id: 'implantacao-saas-internacional',
     slug: 'implantacao-saas-internacional',
     number: '01',
-    title: 'SaaS Enterprise Implementation & Onboarding Across Global Markets',
-    category: 'Implementation / Onboarding / International',
+    title: 'Implantação & Onboarding SaaS para Organização Internacional',
+    category: 'Implantação / Onboarding / Internacional',
     year: '2025',
-    role: 'Lead Implementation Specialist',
-    intro: 'Condução e estruturação da jornada de onboarding e implantação de plataforma SaaS corporativa integrada em múltiplos países nas Américas (Brasil e EUA).',
+    role: 'Implantação & Onboarding SaaS',
+    intro: 'Acompanhamento e suporte à jornada de onboarding e implantação de plataforma SaaS para projetos com atuação transfronteiriça (Brasil, América Latina e EUA).',
     content: case1Raw,
+    /* ASSET TEMPORÁRIO DE REFERÊNCIA - SUBSTITUIR POSTERIORMENTE */
     videoUrl: 'https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_170732_8a9ccda6-5cff-4628-b164-059c500a2b41.mp4'
   },
   {
     id: 'processos-operacionais-automacao',
     slug: 'processos-operacionais-automacao',
     number: '02',
-    title: 'Operational Design & Process Automation in Onboarding Workflows',
-    category: 'Operations / Automation / Integrations',
+    title: 'Mapeamento de Processos & Fluxos Operacionais (CASE EM CONSTRUÇÃO)',
+    category: 'Operações / Processos / Handoff',
     year: '2024',
-    role: 'Operations & Process Specialist',
-    intro: 'Redesenho operacional completo do fluxo de handoff comercial para operações, mitigando erros e atrasos de kickoff através de fluxos de integração automática via APIs.',
+    role: 'Desenho de Processos & Operações',
+    intro: '[CASE EM CONSTRUÇÃO] Estudo de mapeamento de fluxos de trabalho de onboarding (AS-IS / TO-BE) e padronização da passagem de bastão operacional.',
     content: case2Raw,
+    /* ASSET TEMPORÁRIO DE REFERÊNCIA - SUBSTITUIR POSTERIORMENTE */
     videoUrl: 'https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260406_133058_0504132a-0cf3-4450-a370-8ea3b05c95d4.mp4'
   },
   {
     id: 'onboarding-enterprise-journey',
     slug: 'onboarding-enterprise-journey',
     number: '03',
-    title: 'Enterprise Customer Journey & User Adoption Standard',
-    category: 'Customer Experience / Adoption / Enablement',
+    title: 'Jornada de Adoção de Produto & Customer Experience',
+    category: 'Customer Experience / Adoção / Onboarding',
     year: '2025',
-    role: 'Onboarding Specialist',
-    intro: 'CONTENT_PENDING - Metodologia de ativação e medição de uso de produto para encurtar o tempo de primeira realização de valor (Time-to-Value) em contas estratégicas.',
-    content: '# Enterprise Customer Onboarding Journey\n\n*Informações detalhadas sobre este caso de uso estão pendentes de validação de confidencialidade (CONTENT_PENDING).*',
+    role: 'Onboarding & Customer Experience',
+    intro: '[INFORMAÇÃO PENDENTE DE VALIDAÇÃO] Estruturação de rituais de acompanhamento e habilitação técnica de usuários operacionais em contas corporativas.',
+    content: '# Jornada de Adoção & Customer Experience\n\n*Informações detalhadas sobre este projeto estão sob validação técnica e revisão de confidencialidade (CONTENT_PENDING).*',
   }
 ];

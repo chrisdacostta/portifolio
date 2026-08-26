@@ -1,25 +1,25 @@
 # Christian da Costa — SaaS Implementation & Onboarding Specialist
 
 > **Presença Digital Profissional & Documentação de Projetos**  
-> *Transformando necessidades de negócio em implantações SaaS estruturadas, processos eficientes e produtos adotados.*
+> *Transformando necessidades de negócio em implantações SaaS estruturadas, processos eficientes e produtos adotados de verdade.*
 
 ---
 
 ## 📌 Visão Geral
 
-Este repositório contém o código-fonte da aplicação web cinemática de **Christian da Costa**, construída para documentar sua trajetória, racional de processos e cases de implantação de plataformas SaaS.
+Este repositório contém o código-fonte da aplicação web de **Christian da Costa**, construída para documentar sua trajetória, racional de processos e cases de implantação de plataformas SaaS.
 
-Diferente de um portfólio comum, o projeto foi desenvolvido com uma **arquitetura de fonte única de verdade (Single Source of Truth)**:
-- **No Repositório (GitHub):** Documentos originais em Markdown localizados em `/cases`, `/frameworks` e `/templates` que podem ser lidos diretamente por recrutadores e hiring managers no GitHub.
-- **Na Aplicação Web (Netlify):** Interface desenvolvida em React + Vite + TypeScript + Tailwind CSS + Framer Motion, que importa dinamicamente o conteúdo bruto em Markdown e o renderiza com design editorial e animações.
+O projeto adota uma **arquitetura de fonte única de verdade (Single Source of Truth)**:
+- **No Repositório (GitHub):** Documentos em Markdown localizados em `/cases`, `/frameworks` e `/templates` que podem ser explorados diretamente no GitHub.
+- **Na Aplicação Web (Netlify):** Interface desenvolvida em **React 19 + Vite + TypeScript + Tailwind CSS + Framer Motion**, que importa dinamicamente o conteúdo em Markdown e o renderiza com design editorial e animações.
 
 ---
 
 ## 🛠️ Posicionamento Profissional
 
 - **Eixo Principal:** SaaS Implementation & Customer Onboarding Specialist (~7 anos de experiência).
-- **Competências Conectadas:** Implantação de Plataformas SaaS, Discovery de Requisitos, Desenho Operacional (AS-IS / TO-BE), Automações & Integrações (APIs/Webhooks), Gestão de Stakeholders, Handoff e Adoção de Produto.
-- **Atuação Internacional:** Projetos com clientes no Brasil, América Latina, Estados Unidos e Europa.
+- **Competências Conectadas:** Implantação de Plataformas SaaS, Discovery de Requisitos, Mapeamento de Processos (AS-IS / TO-BE), Handoff, Treinamentos, Automação Operacional e Adoção de Produto.
+- **Atuação Internacional:** Experiência com projetos e clientes no Brasil, América Latina, Estados Unidos e Europa.
 - **Idiomas:** Português (Nativo) | Español (Nativo).
 
 ---
@@ -27,7 +27,7 @@ Diferente de um portfólio comum, o projeto foi desenvolvido com uma **arquitetu
 ## 📁 Arquitetura do Repositório
 
 ```text
-├── cases/                              # Documentos de cases reais (anonimizados)
+├── cases/                              # Documentos de cases reais (anonimizados / em validação)
 │   ├── case-01-implantacao-saas-internacional.md
 │   └── case-02-processos-operacionais-automacao.md
 │
@@ -42,15 +42,15 @@ Diferente de um portfólio comum, o projeto foi desenvolvido com uma **arquitetu
 │   ├── risk-impediment-log.md
 │   └── go-live-handoff-checklist.md
 │
-├── src/                                # Aplicação React
+├── src/                                # Aplicação React 19
 │   ├── components/                     # Componentes de UI e Motion (WordsPullUp, ScrollRevealText, etc.)
-│   ├── data/                           # Esquemas e metadados (projects.ts, experience.ts, etc.)
+│   ├── data/                           # Metadados validados (projects.ts, experience.ts, etc.)
 │   ├── pages/                          # Rotas (Home.tsx, ProjectDetail.tsx)
 │   ├── App.tsx                         # Client-side routing via React Router
 │   └── index.css                       # Design System (Almarai, Instrument Serif, noise overlays)
 │
 ├── public/
-│   └── _redirects                      # Regra de fallback SPA para o Netlify
+│   └── _redirects                      # Regra de fallback SPA para a Netlify
 │
 ├── netlify.toml                        # Configuração de build para a Netlify
 └── package.json
@@ -66,7 +66,7 @@ Diferente de um portfólio comum, o projeto foi desenvolvido com uma **arquitetu
 
 ### Passos
 ```bash
-# 1. Clones este repositório
+# 1. Clone este repositório
 git clone https://github.com/chrisdacostta/portifolio.git
 
 # 2. Acesse o diretório
@@ -86,7 +86,7 @@ npm run build
 
 ## 🌐 Publicação (Netlify)
 
-O projeto está configurado para deploy contínuo via **GitHub → Netlify**:
+O projeto está pronto para deploy contínuo via **GitHub → Netlify**:
 - **Build Command:** `npm run build`
 - **Publish Directory:** `dist`
 - **SPA Fallback:** Gerenciado via `public/_redirects`
